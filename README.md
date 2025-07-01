@@ -54,7 +54,7 @@ cd RehabilitationProject_FA
 ### Настройка переменных окружения
 Создайте файл `.env` в директории `backend/` с содержимым:
 ```plaintext
-DATABASE_URL=postgresql://rehab_user:1234@db:5432/rehab_db
+DATABASE_URL=postgresql://данные доступа к Вашей БД
 GOOGLE_API_KEY=<your-google-api-key>
 HUGGINGFACE_TOKEN=<your-huggingface-token>
 ```
@@ -135,4 +135,4 @@ docker-compose up --build
 
 ## 📧 Контакты
 
-Для вопросов или предложений свяжитесь с автором: [yanrikishi@gmail.com](mailto:jelt11ms@gmail.com).
+Для вопросов или предложений свяжитесь с автором: yanrikishi@gmail.com.
